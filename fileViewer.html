@@ -110,6 +110,9 @@ Licence URI: http://www.os-templates.com/template-terms
             var filePath = getParameterByName("filePath");
             document.getElementById("pdfViewer").setAttribute("data",filePath);
             document.getElementById("backuppdflink").setAttribute("href",filePath);
+            if(document.getElementById("backuppdflink").getBoundingClientRect().height > 0){
+              window.open(filePath);
+            }
         }
 
       </script>
