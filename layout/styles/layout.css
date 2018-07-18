@@ -464,3 +464,35 @@ table a, #comments a{background-color:inherit;}
 	height:100%;
 
 }
+.left-colum{ 
+	width:350px; overflow:hidden; float:left; padding-left:30px;
+}
+.left-colum .content p{padding-bottom:20px; padding-top:20px; border-bottom:1px solid #e2e2e2;}
+.left-colum .content p span{color:#333333; font-size:11px;}
+.left-colum .content p.borderNone{border-bottom:none;}
+.left-colum li {
+	list-style: none; outline: none; display:block; border-bottom:1px solid #e2e2e2; height:40px; line-height:40px;
+}
+/*-------------------------------------------------
+RIGHT-COLUM CLASSS
+-------------------------------------------------*/
+.right-colum{ width:calc(100% - 350px); overflow:hidden; float:right;min-width:250px;}
+.right-colum .panel{ margin-bottom:50px; width:100%;}
+.right-colum .content h2{padding-bottom:20px;}
+.right-colum .content h3{padding-bottom:10px; color:#e5703d;}
+.right-colum .content img{ float:left; margin-right:30px; }
+.right-colum .content p{line-height:18px; padding-bottom:20px; text-align:justify;}
+
+.left-colum .midpanelleft .title h1{
+	font-weight:normal; line-height:50px; padding-left:40px; margin:0px; font-family: 'Tienne', serif; font-size:20px; color:#e5703d; text-transform:uppercase; 
+}
+.left-colum .midpanelleft ul{
+	margin-top:0px;
+}
+
+.serviceWrapper{
+	margin-top:40px;
+}
+.serviceWrapper .right-colum .panel{ 
+	display: none;
+}
