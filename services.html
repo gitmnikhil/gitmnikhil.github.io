@@ -95,14 +95,14 @@ Licence URI: http://www.os-templates.com/template-terms
             </div>
             <div class="content">
               <ul>
-                <li><a class="drop" href="#" onclick="javascript:toggleElement('corporate')">Corporate Law Services</a></li>
-                <li><a href="#"onclick="javascript:toggleElement('fema')">FEMA & DGFT Compliances</a></li>
-                <li><a href="#" onclick="javascript:toggleElement('banking')">Banking, Demat, Pledge & Others</a></li>
-                <li><a href="#" onclick="javascript:toggleElement('trademark')">Trademarks, Copyrights and IP</a></li>
-                <li><a href="#" onclick="javascript:toggleElement('regulatory')">Regulatory Approvals</a></li>
-                <li><a href="#" onclick="javascript:toggleElement('audit')">Audit & Assurance</a></li>
-                <li><a href="#" onclick="javascript:toggleElement('taxation`')">Taxation & Advisory</a></li>
-                <li class="borderNone" onclick="javascript:toggleElement('others')"><a href="#">Other Services</a></li>
+                <li onclick="javascript:toggleElement('corporate')">Corporate Law Services</li>
+                <li onclick="javascript:toggleElement('fema')">FEMA & DGFT Compliances</li>
+                <li onclick="javascript:toggleElement('banking')">Banking, Demat, Pledge & Others</li>
+                <li onclick="javascript:toggleElement('trademark')">Trademarks, Copyrights and IP</li>
+                <li onclick="javascript:toggleElement('regulatory')">Regulatory Approvals</li>
+                <li onclick="javascript:toggleElement('audit')">Audit & Assurance</li>
+                <li onclick="javascript:toggleElement('taxation`')">Taxation & Advisory</li>
+                <li class="borderNone" onclick="javascript:toggleElement('others')">Other Services</li>
               </ul>
             </div>
         </div>
@@ -466,7 +466,10 @@ Licence URI: http://www.os-templates.com/template-terms
     }
     function toggleElement(name){
         hideAllElement();
-        switch(name.toLowerCase()){
+        if(name){
+          name = name.toLowerCase();
+        }
+        switch(name){
             case "fema":
             case "banking":
             case "trademark":
