@@ -496,3 +496,31 @@ RIGHT-COLUM CLASSS
 .serviceWrapper .right-colum .panel{ 
 	display: none;
 }
+#notificationItemWrapper{
+	text-align:left;
+}
+.notificationWrapper{
+	border:1px solid #D7D7D7;height:250px;overflow:auto;
+	border-bottom:none;
+}
+
+#notificationItemWrapper p{
+	border-bottom:1px solid #D7D7D7;
+	padding-left:20px;
+}
+#notificationItemWrapper p.last{
+	border-bottom:none;
+}
+#loadingImage{
+	border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+	width: 120px;
+	margin:auto;
+    height: 120px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

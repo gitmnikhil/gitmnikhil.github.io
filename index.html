@@ -88,10 +88,21 @@ Licence URI: http://www.os-templates.com/template-terms
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row3">
+  <main class="hoc clear"> 
+    <!-- main body -->
+    <!-- ################################################################################################ -->
+    <div class="center notificationWrapper">
+      <h3 class="heading" style="padding-top:20px;">Notifications</h3>
+      <div id="notificationItemWrapper"></div>
+      <div id="loadingImage"></div>
+    </div>
+  </main>
+</div>
+<div class="wrapper row3">
   <div id="services" class="hoc clear"> 
     <!-- ################################################################################################ -->
     <div class="table">
-      <div class="table-row"> 
+      <div class="table-row" style="border-top:1px solid #D7D7D7;"> 
         <!-- ################################################################################################ -->
         <div class="table-cell">
           <article><a href="#"><i class="fa fa-key"></i></a>
@@ -260,5 +271,21 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="https://drive.google.com/uc?export=download&id=19aWFTDXvhQ5_hcowjRUS6gBwAnZoiwas"></script>
+<script>
+  window.onload = function(){
+    $("#loadingImage").hide();
+    $("#notificationArea").html(notificationContent);
+    for(var i=0;i<notificationContent.length;i++){
+      if(i === notificationContent.length - 1){
+        $("#notificationItemWrapper").append("<p class='last'>"+ notificationContent[i] + "</p>");
+      }else{
+        $("#notificationItemWrapper").append("<p>"+ notificationContent[i] + "</p>");
+      }
+      
+    }
+    
+  }
+</script>
 </body>
 </html>
