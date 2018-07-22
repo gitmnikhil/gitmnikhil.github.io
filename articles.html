@@ -151,7 +151,11 @@ Licence URI: http://www.os-templates.com/template-terms
     }
     window.onload = function(){
         loadArticleList(articleList, $("#articleList"));
-        loadArticle(articleList[0].link);
+        var name = getParameterByName("name");
+        if(!name){
+          name = articleList[0].link;
+        }
+        loadArticle(name);
     }
 
     function loadArticleList(listItem, element){
@@ -175,6 +179,8 @@ Licence URI: http://www.os-templates.com/template-terms
           url:"./"+filePath,
           method:"GET",
           success:function(data){
+            var stateObj = { };
+            history.pushState(stateObj, "Article", "articles.html?name="+filePath);
             $("#articleWrapper").html(data);
           },error: function(err){
             $("#articleWrapper").html("Unable to load the article. Please try later.");
