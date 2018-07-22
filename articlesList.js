@@ -22,4 +22,4 @@ var articleList= [
 
         ]
     }
-*
+*/
