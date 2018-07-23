@@ -464,6 +464,7 @@ table a, #comments a{background-color:inherit;}
 	height:100%;
 
 }
+
 .left-colum{ 
 	width:350px; overflow:hidden; float:left; padding-left:30px;
 }
@@ -476,8 +477,8 @@ table a, #comments a{background-color:inherit;}
 /*-------------------------------------------------
 RIGHT-COLUM CLASSS
 -------------------------------------------------*/
-.right-colum{ width:calc(100% - 350px); overflow:hidden; float:right;min-width:250px;}
-.right-colum .panel{ margin-bottom:50px; width:100%;}
+.right-colum{ float:right;}
+.right-colum .panel{ margin-bottom:50px; width:100%;display:block;}
 .right-colum .content h2{padding-bottom:20px;}
 .right-colum .content h3{padding-bottom:10px; color:#e5703d;}
 .right-colum .content img{ float:left; margin-right:30px; }
@@ -523,4 +524,13 @@ RIGHT-COLUM CLASSS
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+@media screen and (max-width:400px){
+	.right-colum{ width:100%; min-width:250px;overflow:auto;}
+	.right-colum .panel{ padding-right:10px;}
+}
+@media screen and (min-width:400px){
+	.right-colum{ width:calc(100% - 350px); min-width:250px;overflow:hidden; }
+	.right-colum .panel{ padding-right:50px;}
 }
