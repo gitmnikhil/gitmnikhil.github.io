@@ -7,6 +7,12 @@ var articleList= [
         "name":"TDS RETURN",
         "link":"articles/tdsreturn.html"
     }
+    
+    {
+        "name":"Significant Beneficial Owners",
+        "link":"articles/Significantbeneficialowner.html"
+ } 
+
 ]
 
 //Sample
