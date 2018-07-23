@@ -10,7 +10,7 @@ var articleList= [
     
     {
         "name":"Significant Beneficial Owners",
-        "link":"articles/significantbeneficialowner.html"
+        "link":"articles/Significantbeneficialowner.html"
  } 
 
 ]
