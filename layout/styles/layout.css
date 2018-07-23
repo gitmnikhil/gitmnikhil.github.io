@@ -538,3 +538,43 @@ RIGHT-COLUM CLASSS
 	.left-colum{ padding-left:30px;}
 	.left-colum .midpanelleft .title h1{padding-left:40px; }
 }
+@media screen and (min-width:400px){
+	.indexbanner{
+		background-image:url('../../images/2.jpg');
+	}
+	.aboutusBanner{
+		background-image:url('../../images/abousus2.jpg');
+	}
+	.articleBanner{
+		background-image:url('../../images/article.jpg');
+	}
+	.contactusbanner{
+		background-image:url('../../images/contactus.jpeg');
+	}
+	.legalBanner{
+		background-image:url('../../images/law.jpg');
+	}
+	.servicesBanner{
+		background-image:url('../../images/secretarial.jpg');
+	}
+}
+@media screen and (max-width:400px){
+	.indexbanner{
+		background-image:url('../../images/mobile1.jpeg');
+	}
+	.aboutusBanner{
+		background-image:url('../../images/mobile5.jpg');
+	}
+	.articleBanner{
+		background-image:url('../../images/mobile3.jpg');
+	}
+	.contactusbanner{
+		background-image:url('../../images/mobile4.jpg');
+	}
+	.legalBanner{
+		background-image:url('../../images/law.jpg');
+	}
+	.servicesBanner{
+		background-image:url('../../images/mobile2.jpg');
+	}
+}
