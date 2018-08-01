@@ -1,5 +1,9 @@
 var articleList= [
     {
+        "name":"Director's Report",
+        "link":"articles/DirectorReport.html"
+    },
+    {
         "name":"DIR-3 KYC",
         "link":"articles/dir3kyc.html"
     },
