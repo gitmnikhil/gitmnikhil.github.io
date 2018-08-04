@@ -1,5 +1,9 @@
 var articleList= [
     {
+        "name":"GST Registeration",
+        "link":"articles/gstregisteration.html"
+    },
+    {
         "name":"E-way Bill",
         "link":"articles/ewaybill.html"
     },
