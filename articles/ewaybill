@@ -1,0 +1,261 @@
+<p><strong>EWay Bill</strong></p>
+<p><span style="font-weight: 400;">EWay Bill is an electronic way bill for movement of goods which can be generated on the eWay Bill Portal.&nbsp;Transport of goods of more than Rs. 50,000 (Single Invoice/bill/delivery Challan) in value in a vehicle cannot be made by a registered person without a eway bill. Alternatively, Eway bill can also be generated or cancelled&nbsp;</span><a href="https://cleartax.in/s/generate-gst-eway-bill-via-sms"><span style="font-weight: 400;">through SMS</span></a><span style="font-weight: 400;">, Android App and&nbsp;by Site-to-Site Integration (through API). When a eway bill is generated a unique eway bill number (EBN) is allocated and is available to the supplier, recipient, and the transporter.</span></p>
+<ol start="2">
+<li><strong> Issuance of eway bill:</strong></li>
+</ol>
+<p><span style="font-weight: 400;">&nbsp; EWay bill will be generated when there is a movement of goods in a vehicle/ &nbsp;&nbsp;&nbsp;conveyance of value more than Rs. 50,000(either each Invoice or in (aggregate of all &nbsp;&nbsp;Invoices in a vehicle/ Conveyance) &ndash;</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">In relation to a &lsquo;supply&rsquo;</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">For reasons other than a &lsquo;supply&rsquo; </span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Due to inward &lsquo;supply&rsquo; from an unregistered person</span></li>
+</ul>
+<p><span style="font-weight: 400;">For this purpose, a supply may be either of the following:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A supply made for a consideration (payment) in the course of business</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A supply made for a consideration (payment) which may not be in the course of business</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">A supply without consideration (without payment)In simpler terms, &nbsp;the term &lsquo;supply&rsquo; usually means a:</span></li>
+</ul>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Sale &ndash; sale of goods and payment made</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Transfer &ndash; branch transfers for instance</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Barter/Exchange &ndash; where the payment is by goods instead of in money</span></li>
+</ol>
+<p><span style="font-weight: 400;">Therefore, eWay Bills must be generated on the common portal for all these types of movements. For certain specified Goods, the eway bill need to&nbsp;be generated mandatorily&nbsp;even if the Value of the consignment of Goods is less than Rs. 50,000:</span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Inter-State movement of Goods&nbsp;by the Principal&nbsp;to the Job-worker by Principal/ registered Job-worker***,</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Inter-State Transport of Handicraft goods by a&nbsp;dealer exempted from GST registration</span></li>
+</ol>
+<ol start="3">
+<li><strong> Applicability for generating eway bill:</strong></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><strong>Registered Person</strong><span style="font-weight: 400;">&nbsp;&ndash; Eway bill must be generated when there is a movement of goods of more than Rs 50,000 in value to or from a Registered Person. A Registered person or the transporter may choose to generate and carry eway bill even if the value of goods is less than Rs 50,000.</span></li>
+<li style="font-weight: 400;"><strong>Unregistered Persons</strong><span style="font-weight: 400;">&nbsp;&ndash; Unregistered persons are also required to generate e-Way Bill. However, where a supply is made by an unregistered person to a registered person, the receiver will have to ensure all the compliances are met as if they were the supplier.</span><strong>&nbsp;</strong></li>
+<li style="font-weight: 400;"><strong>Transporter</strong><span style="font-weight: 400;">&nbsp;&ndash; Transporters&nbsp;carrying goods by road, air, rail, etc. also need to generate e-Way Bill if&nbsp;the supplier has not generated an e-Way Bill.</span></li>
+</ul>
+<p><span style="font-weight: 400;">Latest&nbsp;update as on 23rd Mar 2018:</span></p>
+<p><span style="font-weight: 400;">Until&nbsp;a date yet to be notified, the transporters&nbsp;need not generate the Eway bill (as Form EWB-01 or EWB-02) where all the consignments</span><strong>&nbsp;in the conveyance</strong><span style="font-weight: 400;">:</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Individually(single Document**) is less than or equal to Rs 50,000&nbsp;</span><strong>BUT</strong></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">In Aggregate (all documents** put together) exceeds Rs 50,000</span></li>
+</ul>
+<p><span style="font-weight: 400;">**Document means Tax Invoice/Delivery challan/Bill of supply</span></p>
+<p><span style="font-weight: 400;">Unregistered Transporters will be issued Transporter ID&nbsp;on enrolling on the e-way bill portal after which Eway bills can be generated.</span></p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>Who</strong></p>
+</td>
+<td>
+<p><strong>When</strong></p>
+</td>
+<td>
+<p><strong>Part</strong></p>
+</td>
+<td>
+<p><strong>Form</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Every Registered person under GST</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Before movement of goods</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Fill Part A</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Form GST EWB-01</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Registered person is consignor or consignee (mode of transport may be owned or hired) OR is recipient of goods</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Before movement of goods</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Fill Part B</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Form GST EWB-01</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Registered person is consignor or consignee &nbsp;and goods are handed over to transporter of goods</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Before movement of goods</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Fill Part B</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">&nbsp;The registered person shall furnish the information relating to the transporter in Part B of FORM GST EWB-01</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Transporter of goods</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Before movement of goods</span></p>
+</td>
+<td>&nbsp;</td>
+<td>
+<p><span style="font-weight: 400;">&nbsp;Generate e-way bill on basis of information shared by the registered person in Part A of FORM GST EWB-01</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">An unregistered person under GST and recipient is registered</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Compliance to be done by Recipient as if he is the Supplier.</span></p>
+</td>
+<td>&nbsp;</td>
+<td>
+<p><span style="font-weight: 400;">&nbsp;1. If the goods are transported for a distance of&nbsp;fifty kilometers or less, within the same State/Union territory from the place of business of the consignor to the place of business of the transporter for further transportation, the supplier or the transporter may not furnish the details of conveyance in Part B of FORM GST EWB-01. 2. If supply is made by air, ship or railways, then the information in Part A of FORM GST EWB-01 has to be filled in by the consignor or the recipient</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Note:</strong><span style="font-weight: 400;">&nbsp;If a transporter is transporting multiple consignments in a single conveyance, they can use the form GST EWB-02 to produce a&nbsp;</span><span style="font-weight: 400;">consolidated e-way bill</span><span style="font-weight: 400;">, by providing the e-way bill numbers of each consignment. If both the consignor and the consignee have not created an e-way bill, then the transporter can do so&nbsp;</span><span style="font-weight: 400;">*</span><span style="font-weight: 400;">&nbsp;by filling out PART A of FORM GST EWB-01 on the basis of the invoice/bill of supply/delivery Challan given to them.</span></p>
+<ol start="4">
+<li><strong> EWay bill is not required in following cases:</strong></li>
+</ol>
+<p><span style="font-weight: 400;">In the following cases it is not necessary to generate e-Way Bill:</span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The mode of transport is non-motor vehicle</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Goods transported from Customs port, airport, air cargo complex or land customs station to Inland Container Depot (ICD) or Container Freight Station (CFS) for clearance by Customs.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Goods transported under Customs supervision or under customs seal</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Goods transported under Customs Bond from ICD to Customs port or from one custom station to another.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Transit cargo transported to or from Nepal or Bhutan</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Movement of goods caused by defense formation under Ministry of defense as a consignor or consignee</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Empty Cargo containers are being transported</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Consignor transporting goods to or from between place of business and a weighbridge for weighment&nbsp;at a distance of 20 kms, accompanied by a Delivery Challan.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Goods being transported by rail where the Consignor of goods is the Central Government,&nbsp;State Governments or a local authority.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Goods specifed as exempt from E-Way bill&nbsp;requirements in the respective State/Union territory GST Rules.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Transport of certain specified goods- Includes the list of exempt supply of goods, Annexure to Rule 138(14), goods treated as no supply as per Schedule III, Certain schedule to Central tax Rate notifications </span><span style="font-weight: 400;">Note: Part B of e-Way Bill is not required to be filled where the distance between the consigner or consignee and the transporter is less than 50 Kms and transport is within the same state.</span></li>
+</ol>
+<ol start="5">
+<li><strong> Status of Implementation across India:</strong></li>
+</ol>
+<p><span style="font-weight: 400;">Inter-State movement of goods has seen rise in numbers of generation of eway bills ever since its implementation began from 1st April 2018. State-wise implementation of e-way bill system&nbsp;has seen a good response with&nbsp;all the States and Union Territories joining the league in the&nbsp;generation of eway bills for movement of goods within the State/UT. However,&nbsp;reliefs have been provided to people of few States by way of exempting them from eway bill generation in case of monetary limits falling below threshold amount or certain specified items. For Instance,&nbsp;</span><span style="font-weight: 400;">Tamil Nadu</span><span style="font-weight: 400;">&nbsp;has exempted people of its State from the generation of eway bill if the monetary limit of the items falls below Rs. 1Lakh. To know more of such reliefs for other States/UTs, visit&nbsp;</span><span style="font-weight: 400;">commercial tax websites</span><span style="font-weight: 400;">&nbsp;for each of such States/UTs.</span></p>
+<ol start="6">
+<li><strong>How to generate eWay Bill</strong></li>
+</ol>
+<p><span style="font-weight: 400;">There are some pre-requisites for generating a eway bill (for any method of generation):</span></p>
+<p><strong>Step 1:</strong><span style="font-weight: 400;">&nbsp;Login to&nbsp;eway bill system.</span></p>
+<p><span style="font-weight: 400;">Enter the Username, password and Captcha code, Click on &lsquo;Login&rsquo;</span></p>
+<p><strong>Step 2:</strong><span style="font-weight: 400;">&nbsp;Click on &lsquo;Generate new&rsquo; under &lsquo;E-waybill&rsquo; option appearing on the left-hand side of the dashboard.</span></p>
+<p><strong>Step 3:&nbsp;</strong><span style="font-weight: 400;">Enter the following fields on the screen that appears:</span></p>
+<p><span style="font-weight: 400;">1) Transaction Type:</span></p>
+<p><span style="font-weight: 400;">Select &lsquo;Outward&rsquo; if you are a supplier of consignment</span></p>
+<p><span style="font-weight: 400;">Select &lsquo;Inward&rsquo; if you are a recipient of consignment.</span></p>
+<p><span style="font-weight: 400;">2) &nbsp;Sub-type: Select the relevant sub-type applicable to you:</span></p>
+<p><span style="font-weight: 400;">If transaction type selected is Outward, following subtypes appear:</span></p>
+<p><span style="font-weight: 400;">Note: SKD/CKD- Semi knocked down condition/ Complete knocked down condition</span></p>
+<p><span style="font-weight: 400;">3) Document type: Select either of Invoice / Bill/ challan/ credit note/ Bill of entry or others if not listed</span></p>
+<p><span style="font-weight: 400;">4) Document No. : Enter the document/invoice number</span></p>
+<p><span style="font-weight: 400;">5) Document Date: Select the date of Invoice or challan or Document.</span></p>
+<p><span style="font-weight: 400;">Note: The system will not allow the user to enter the future date.</span></p>
+<p><span style="font-weight: 400;">6) From/&nbsp;To Depending on whether you are a supplier or a recipient, enter the To / From section details.</span></p>
+<p><strong>Note:</strong><span style="font-weight: 400;">&nbsp;If the supplier/client is unregistered, then mention &lsquo;URP&rsquo; in the field GSTIN, indicating that the supplier/client is an &lsquo;Unregistered Person&rsquo;.</span></p>
+<p><span style="font-weight: 400;">7) Item Details: Add the details of the consignment (HSN code-wise) in this section:</span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Product name</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Description</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">HSN Code</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Quantity,</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Unit,</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Value/Taxable value</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Tax rates of CGST and SGST or IGST (in %)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Tax rate of Cess, if any charged (in %)</span></li>
+</ol>
+<p><span style="font-weight: 400;">Note: On the implementation of Eway bills, based on the details entered here, corresponding entries&nbsp;can also be auto-populated in the respective GST Return while filing on GST portal.</span></p>
+<p><span style="font-weight: 400;">8) Transporter details: The mode of transport (Road/rail/ship/air) and the approximate distance covered (in KM) needs to be compulsorily mentioned in this part.</span></p>
+<p><span style="font-weight: 400;">Apart from above,&nbsp;</span><strong>either&nbsp;</strong><span style="font-weight: 400;">of the details can be mentioned:</span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Transporter name, transporter ID, transporter Doc. No. &amp; Date.</span></li>
+</ol>
+<p><strong>OR</strong></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Vehicle number in which consignment is being transported.</span></li>
+</ol>
+<p><span style="font-weight: 400;">Format: AB12AB1234 or AB12A1234 or AB121234 or ABC1234</span></p>
+<p><span style="font-weight: 400;">Note: For products, clients/customers, suppliers, and transporters that are used regularly, first update the&nbsp;&lsquo;My masters&rsquo; section also available on the login dashboard and then proceed.</span></p>
+<p><strong>Step 4:</strong><span style="font-weight: 400;">&nbsp;Click on &lsquo;Submit&rsquo;. The system validates data entered and throws up an error if any.</span></p>
+<p><span style="font-weight: 400;">Otherwise, your request is processed and the eway bill in Form EWB-01 form with a unique 12 digit number is generated.</span></p>
+<p><span style="font-weight: 400;">Print and carry the eway bill for transporting the goods in the selected mode of transport and the selected conveyance.</span></p>
+<ol start="7">
+<li><strong> Validity of eWay Bill:</strong></li>
+</ol>
+<p><span style="font-weight: 400;">An e-way bill is valid for periods as listed below, which is based on the distance travelled by the goods. Validity is calculated from the date and time of generation of e-way bill-</span></p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>Type of conveyance</strong></p>
+</td>
+<td>
+<p><strong>Distance</strong></p>
+</td>
+<td>
+<p><strong>Validity of EWB</strong></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2">
+<p><span style="font-weight: 400;">Other than Over dimensional cargo</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Less Than 100 Kms</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">1 Day</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">For every additional 100 Kms or part thereof</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">additional 1 Day</span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="2">
+<p><span style="font-weight: 400;">For Over dimensional cargo</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Less Than 20 Kms</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">1 Day</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">For every additional 20 Kms or part thereof</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">additional 1 Day</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p><span style="font-weight: 400;">&nbsp; Validity of Eway bill can also be extended. Such Eway bill is generated either before expiry of four hours or after for hours after its expiry. It may extend Eway bill validity.</span></p>
+<ol start="8">
+<li><strong> Documents or Details required generating eWay Bill:</strong></li>
+</ol>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Invoice/ Bill of Supply/ Challan related to the consignment of goods</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Transport by road &ndash;&nbsp;</span><span style="font-weight: 400;">Transporter ID</span><span style="font-weight: 400;">&nbsp;or Vehicle number</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Transport by rail, air, or ship &ndash; Transporter ID, Transport document number, and date on the document</span></li>
+</ol>
