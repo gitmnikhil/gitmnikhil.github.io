@@ -1,7 +1,7 @@
 var articleList= [
     {
         "name":"DIR-3 KYC",
-        "link":"articles/dir3kyc.html"
+        "link":"articles/dir3kycs.html"
     }
     {
         "name":"GST Registeration",
