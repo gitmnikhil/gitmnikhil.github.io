@@ -3,10 +3,7 @@ var articleList= [
         "name":"GST Registeration",
         "link":"articles/gstregisteration.html"
     },
-    {
-        "name":"E-way Bill",
-        "link":"articles/ewaybill.html"
-    },
+    
     {
         "name":"Conversion of LLP",
         "link":"articles/llpconversion.html"
@@ -15,10 +12,7 @@ var articleList= [
         "name":"Director's Report",
         "link":"articles/DirectorReport.html"
     },
-    {
-        "name":"DIR-3 KYC",
-        "link":"articles/dir3kyc.html"
-    },
+    
      {
         "name":"TDS RETURN",
         "link":"articles/tdsreturn.html"
