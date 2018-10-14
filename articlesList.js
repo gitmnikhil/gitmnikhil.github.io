@@ -32,30 +32,33 @@ var articleList= [
         "name":"Director's Report",
         "link":"articles/DirectorReport.html"
     },
-    
-     {
-        "name":"TDS RETURN",
-        "link":"articles/tdsreturn.html"
-    },
-    
     {
         "name":"Significant Beneficial Owners",
         "link":"articles/Significantbeneficialowner.html"
- } 
-
-]
-
-//Sample
-/*
-
-    {
-        "name":"article1",
-        "link":"notification.json"
     },
     {
-        "name":"category 1",
-        "itemList":[
-
-        ]
+        "name":"GST Cancellation",
+        "link":"articles/GSTCancel.html"
+    },
+    {
+        "name":"Input Tax Credit GST",
+        "link":"articles/inputtaxcreditgst.html"
+    },
+    {
+        "name":"IT Deduction under 80C to 80U",
+        "link":"articles/ITDeduction.html"
+    },
+    {
+        "name":"GST Return",
+        "link":"articles/Ggstreturn.html"
+    },
+    {
+        "name":"Tax on House Property",
+        "link":"articles/taxonhp.html"
+    },
+    {
+        "name":"TDS",
+        "link":"articles/tds.html"
     }
-*/
+
+]
