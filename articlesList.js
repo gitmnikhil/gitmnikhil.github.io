@@ -1,5 +1,9 @@
 var articleList= [
     {
+        "name":"ONE PERSON COMPANY (OPC)",
+        "link":"articles/OPC.HTML"
+    },
+    {
         "name":"Striking Off Company",
         "link":"articles/strikeoff.html"
     },
