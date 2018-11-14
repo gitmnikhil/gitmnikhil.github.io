@@ -1,7 +1,7 @@
 var articleList= [
     {
         "name":"ONE PERSON COMPANY (OPC)",
-        "link":"articles/OPC.HTML"
+        "link":"articles/opc.html"
     },
     {
         "name":"Striking Off Company",
