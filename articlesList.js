@@ -1,5 +1,9 @@
 var articleList= [
     {
+        "name":"Indirect Taxation",
+        "link":"articles/indirecttaxation.html"
+    },
+    {
         "name":"ONE PERSON COMPANY (OPC)",
         "link":"articles/opc1.html"
     },
