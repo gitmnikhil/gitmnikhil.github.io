@@ -1,6 +1,6 @@
 var articleList= [
     {
-        "name":"pgbp.html",
+        "name":"Taxation of Income",
         "link":"articles/pgbp.html"
  } ,
     {
