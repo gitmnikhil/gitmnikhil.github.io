@@ -318,9 +318,16 @@ Licence URI: http://www.os-templates.com/template-terms
       }
     }
     var name = getParameterByName("notification");
+    var minWidth = window.innerWidth;
+    var minHeight = window.innerHeight;
+  
+    if(minWidth > 700){
+      minWidth = 700;
+    }
+    if(minHeight > 300){
+      minHeight = 300;
+    }
     if(name){
-      //show dialog
-      //populate content in dialog
       var dialogContent = notificationContent[name];
       if(!dialogContent){
         dialogContent = "Required notification not found. Please visit the notification section for other notifications."
@@ -332,8 +339,8 @@ Licence URI: http://www.os-templates.com/template-terms
           effect: "blind",
           duration: 1000
         },
-        minWidth: 700,
-        minHeight: 300,
+        minWidth: minWidth,
+        minHeight: minHeight,
         modal: true,
         dialogClass: 'notificationDialog',
         title: 'Notification'
