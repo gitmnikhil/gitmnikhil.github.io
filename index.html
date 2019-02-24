@@ -293,7 +293,6 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
 <script src="layout/scripts/jquery-ui.min.js"></script>
-<script src="notification.json"></script>
 <script>
   function getParameterByName(name, url) {
       if (!url) url = window.location.href;
@@ -304,7 +303,9 @@ Licence URI: http://www.os-templates.com/template-terms
       if (!results[2]) return '';
       return decodeURIComponent(results[2].replace(/\+/g, ' '));
   }
-  window.onload = function(){
+  var s = document.createElement( 'script' );
+  s.setAttribute( 'src', "notification.json?rd=" + new Date() );
+  s.onload = function(){
     $("#loadingImage").hide();
     $("#notificationArea").html(notificationContent);
     var notificationKeys = Object.keys(notificationContent);
@@ -340,6 +341,7 @@ Licence URI: http://www.os-templates.com/template-terms
       $( "#notificationDialog" ).dialog( "open" );
     }
   }
+  document.body.appendChild( s );
 </script>
 </body>
 </html>
