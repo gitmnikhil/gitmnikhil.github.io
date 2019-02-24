@@ -13,6 +13,7 @@ Licence URI: http://www.os-templates.com/template-terms
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <meta name="description" content="Single stop solutions for Corporate - Secretarial and Legal Requirements, Banking, Company Incorporation, Taxation, FEMA, Trademarks, Regulatory, Audit and assurance">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link href="layout/styles/jquery-ui.css" rel="stylesheet" type="text/css" media="all">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122587212-1"></script>
 <script>
@@ -282,6 +283,7 @@ Licence URI: http://www.os-templates.com/template-terms
     <!-- ################################################################################################ -->
   </footer>
 </div>
+<div id="notificationDialog"></div>
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
@@ -290,20 +292,53 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
+<script src="layout/scripts/jquery-ui.min.js"></script>
 <script src="notification.json"></script>
 <script>
+  function getParameterByName(name, url) {
+      if (!url) url = window.location.href;
+      name = name.replace(/[\[\]]/g, '\\$&');
+      var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
+          results = regex.exec(url);
+      if (!results) return null;
+      if (!results[2]) return '';
+      return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
   window.onload = function(){
     $("#loadingImage").hide();
     $("#notificationArea").html(notificationContent);
-    for(var i=0;i<notificationContent.length;i++){
-      if(i === notificationContent.length - 1){
-        $("#notificationItemWrapper").append("<p class='last'>"+ notificationContent[i] + "</p>");
+    var notificationKeys = Object.keys(notificationContent);
+    var notificationLength = notificationKeys.length > 10 ? 10 : notificationKeys.length;
+    for(var i=0;i<notificationLength;i++){
+      if(i === notificationLength - 1){
+        $("#notificationItemWrapper").append("<p class='last'>"+ notificationContent[notificationKeys[i]] + "</p>");
       }else{
-        $("#notificationItemWrapper").append("<p>"+ notificationContent[i] + "</p>");
+        $("#notificationItemWrapper").append("<p>"+ notificationContent[notificationKeys[i]] + "</p>");
       }
-      
     }
-    
+    var name = getParameterByName("notification");
+    if(name){
+      //show dialog
+      //populate content in dialog
+      var dialogContent = notificationContent[name];
+      if(!dialogContent){
+        dialogContent = "Required notification not found. Please visit the notification section for other notifications."
+      }
+      $("#notificationDialog").html(dialogContent);
+      $("#notificationDialog").dialog({
+        autoOpen: false,
+        show: {
+          effect: "blind",
+          duration: 1000
+        },
+        minWidth: 700,
+        minHeight: 300,
+        modal: true,
+        dialogClass: 'notificationDialog',
+        title: 'Notification'
+      });
+      $( "#notificationDialog" ).dialog( "open" );
+    }
   }
 </script>
 </body>

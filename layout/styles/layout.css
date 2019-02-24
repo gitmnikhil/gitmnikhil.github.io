@@ -578,3 +578,7 @@ RIGHT-COLUM CLASSS
 		background-image:url('../../images/mobile2.jpg');
 	}
 }
+
+.notificationDialog{
+	z-index:1000 !important;	
+}
