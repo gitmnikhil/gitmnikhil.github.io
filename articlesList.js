@@ -2,12 +2,12 @@ var articleList= [
     {
         "name":"EFORM ACTIVE",
         "link":"articles/eformactive.html"
- } ,
+    },
 
     {
         "name":"Taxation of Income",
         "link":"articles/pgbp.html"
- } ,
+    },
     {
         "name":"Indirect Taxation",
         "link":"articles/indirecttaxation.html"
