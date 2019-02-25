@@ -135,10 +135,8 @@ Licence URI: http://www.os-templates.com/template-terms
 <script src="layout/scripts/jquery.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
-<script src="articlesList.js?v=1"></script>
-
 <script>
-    function getParameterByName(name, url) {
+  function getParameterByName(name, url) {
         if (!url) url = window.location.href;
         name = name.replace(/[\[\]]/g, '\\$&');
         var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
@@ -146,16 +144,18 @@ Licence URI: http://www.os-templates.com/template-terms
         if (!results) return null;
         if (!results[2]) return '';
         return decodeURIComponent(results[2].replace(/\+/g, ' '));
+  }
+  var s = document.createElement( 'script' );
+  s.setAttribute( 'src', "articlesList.js?rd=" + new Date() );
+  s.onload = function(){   
+    loadArticleList(articleList, $("#articleList"));
+    var name = getParameterByName("name");
+    if(!name){
+      name = articleList[0].link;
     }
-    window.onload = function(){
-        loadArticleList(articleList, $("#articleList"));
-        var name = getParameterByName("name");
-        if(!name){
-          name = articleList[0].link;
-        }
-        loadArticle(name);
-    }
-
+    loadArticle(name);
+  }  
+   
     function loadArticleList(listItem, element){
       var $list = $("<ul></ul>");
       for(var i=0;i<listItem.length;i++){
