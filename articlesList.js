@@ -1,6 +1,6 @@
 var articleList= [
     {
-        "name":"Shifting of Registered office from one state to another",
+        "name":"Shifting of Registered office",
         "link":"articles/Shifting.html"
  } ,
 
