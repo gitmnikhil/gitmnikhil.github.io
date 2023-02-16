@@ -1,6 +1,6 @@
 var articleList= [
     {
-        "name":"To Update Master Data of Corporate Debtor",
+        "name":"To Update Master Data",
         "link":"articles/Resolutionapplicant.html"
  } ,
 
