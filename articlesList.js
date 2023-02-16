@@ -1,5 +1,10 @@
 var articleList= [
     {
+        "name":"TO UPDATE MASTER DATA OF COMPANY/CORPORATE DEBTOR UNDERGOING CIRP (AFTER APPROVAL OF RESOLUTION PLAN BY HON’BLE NCLT)",
+        "link":"articles/Resolutionapplicant.html"
+ } ,
+
+    {
         "name":"Shifting of Registered office",
         "link":"articles/Shifting.html"
  } ,
