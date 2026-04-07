@@ -1,4 +1,8 @@
 var articleList= [
+     {
+        "name":"Managerial Remuneration",
+        "link":"articles/managerialremuneration.html"
+ } ,
     {
         "name":"To Update Master Data",
         "link":"articles/Resolutionapplicant.html"
